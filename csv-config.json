@@ -1,0 +1,18 @@
+{
+  "/Carter": {
+    "rootName": "Carter",
+    "header": "Dimensions.Height,Dimensions.Length,Dimensions.Width,Engine Information.Driveline,Engine Information.Engine Type,Engine Information.Hybrid,Engine Information.Number of Forward Gears,VIN,Update Date,Create Date,Zip Code,Identification.Classification,UUID,Make,Model,Year,Price,Mileage",
+    "validColumns": [
+      7,8,9,10,12,13,14,15,16,17
+    ],
+    "totalColumns": 18
+  },
+  "/DeWayneLanes":{
+    "rootName": "DeWayneLanes",
+  "header": "UUID,A,Mileage,Year,Price,Update Date,Engine Information.Number of Forward Gears,VIN,B,Create Date,Zip Code,Identification.Classification,Make,Model",
+    "validColumns": [
+0,2,3,4,5,7,9,10,12,13
+    ],
+    "totalColumns": 15
+}
+}
