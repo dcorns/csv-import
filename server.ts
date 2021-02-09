@@ -19,12 +19,7 @@ const startMongo = async () => {
         }
     });
     dbURI = await mongo.getUri();
-    const port = await mongo.getPort();
-    const dbPath = await mongo.getDbPath();
-    const dbName = await mongo.getDbName();
     console.dir(mongo.getInstanceInfo());
-    //await mongo.stop();
-    //console.dir(mongo.getInstanceInfo());
     return dbURI;
 }
 
